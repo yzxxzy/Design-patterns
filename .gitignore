@@ -77,9 +77,6 @@ applog/*
 
 .idea_modules/
 *.iml
-/.idea/libraries/*
-/.idea/*
-.idea
 target
 # JIRA plugin
 atlassian-ide-plugin.xml
@@ -91,7 +88,6 @@ crashlytics-build.properties
 fabric.properties
 *.cache
 *.cache.lock
-*.iml
 
 ## log
 logs

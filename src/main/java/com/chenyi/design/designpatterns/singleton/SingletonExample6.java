@@ -5,12 +5,13 @@ package com.chenyi.design.designpatterns.singleton;
  */
 public class SingletonExample6 {
 
-    private SingletonExample6(){}
     private static SingletonExample6 instance = null;
+
     static {
         instance = new SingletonExample6();
     }
-    public static SingletonExample6 getInstance(){
+
+    public static SingletonExample6 getInstance() {
         return instance;
     }
 

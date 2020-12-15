@@ -6,8 +6,8 @@ package com.chenyi.design.designpatterns.singleton;
  */
 public class SingletonExample1 {
 
-    private SingletonExample1(){}
     private static SingletonExample1 instance = null;
+
     public static SingletonExample1 getInstance() {
         //多个线程同时调用，可能会创建多个对象
         if (instance == null) {

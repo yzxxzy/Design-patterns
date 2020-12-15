@@ -5,7 +5,7 @@ import com.chenyi.design.designpatterns.factoryMethod.abstractFactory.impl.MailS
 import com.chenyi.design.designpatterns.factoryMethod.abstractFactory.impl.SmsSender;
 
 
-public class SendMailFactory implements Provider{
+public class SendMailFactory implements Provider {
 
     @Override
     public Sender produce() {

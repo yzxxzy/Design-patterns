@@ -1,5 +1,6 @@
 package com.chenyi.design.designpatterns.strategy;
 
+
 import com.chenyi.design.designpatterns.strategy.impl.StrategyImplA;
 import com.chenyi.design.designpatterns.strategy.impl.StrategyImplB;
 
@@ -13,4 +14,7 @@ public class Test {
         Strategy strategy = new StrategyImplA();
         strategy.method();
     }
+
+
+
 }

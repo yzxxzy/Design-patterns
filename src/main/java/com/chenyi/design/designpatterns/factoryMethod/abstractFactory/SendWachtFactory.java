@@ -5,7 +5,7 @@ import com.chenyi.design.designpatterns.factoryMethod.abstractFactory.impl.SmsSe
 import com.chenyi.design.designpatterns.factoryMethod.abstractFactory.impl.WachtSender;
 
 
-public class SendWachtFactory implements Provider{
+public class SendWachtFactory implements Provider {
 
     @Override
     public Sender produce() {

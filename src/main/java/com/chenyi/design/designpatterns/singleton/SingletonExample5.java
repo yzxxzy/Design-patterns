@@ -7,13 +7,13 @@ package com.chenyi.design.designpatterns.singleton;
  */
 public class SingletonExample5 {
 
-    private SingletonExample5(){}
     //单例对象 volatile + 双重检测机制来禁止指令重排
     private volatile static SingletonExample5 instance = null;
-    public static SingletonExample5 getInstance(){
-        if (instance == null){
-            synchronized (SingletonExample5.class){
-                if(instance == null){
+
+    public static SingletonExample5 getInstance() {
+        if (instance == null) {
+            synchronized (SingletonExample5.class) {
+                if (instance == null) {
                     instance = new SingletonExample5();
                 }
             }
